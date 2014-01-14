@@ -1,0 +1,24 @@
+*{margin: auto;}
+a{text-decoration: none;}
+body{font-family: 'Alegreya Sans', sans-serif; background: url(<%= asset_path 'bg.png' %>) repeat;height: 100%; }
+.wrapper{width: 960px;height: auto !important; postion:relative; min-height: 100%; margin: 0 auto -39px;}
+.container{width: 940px; height: 814px; display: block; position: relative; padding-top:5%; }
+#iphone-screenshots{width: 433px; height: 814px; display: block; background: url(<%= asset_path 'iphone.png' %>) no-repeat;float:left; }
+#intro{display: block; width: 500px; float: right;margin-top:35px;}
+#intro p{font-size:20px; margin: 25px 0 5px 15px;line-height:27px;}
+#logo {font-family: 'Fugaz One', cursive;}
+#logo img{position: absolute;}
+.push{height:36px;clear: both;position: absolute;}
+footer{text-align: center;  background:#fff; z-index:10; line-height: 48px;position: relative; bottom:0px; width:100%; margin-top:-48px; clear: both; height: 48px;border-top:3px solid rgba(105, 78, 55, 0.7);}
+footer a{color:#000; text-decoration: underline;}
+p .bigger{font-size: 1.6em;}
+#screenshots-holder{width:295px; height:524px; display: block; margin-top:118px;}
+.appstore_btn{width:250px; height: 84px; display: block; background: url(<%= asset_path 'appstore.png' %>) no-repeat; cursor: pointer; margin-top:35px; background-position-y: -82px;}
+.appstore_btn:hover{background-position-y: 0;}
+.carousel-control{font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; margin-top:30px;}
+.carousel{margin-bottom: 0;}
+@media only screen and (min-width : 1224px) {.container{padding-top:10%;}}
+@media only screen and (min-width : 1824px) {.container{padding-top:18%;}}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) {.container{padding-top:15%;}}
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) {.container{padding-top:2%;}}
+.twitter { padding-right: 5px; }
